@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Applications" xml:space="preserve">
+    <value>Applications [long]</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="BackingUpApplications" xml:space="preserve">
+    <value>Backing up applications...</value>
+  </data>
+  <data name="BackingUpBingMapsCache" xml:space="preserve">
+    <value>Backing up Bing Maps cache...</value>
+  </data>
+  <data name="BackingUpContacts" xml:space="preserve">
+    <value>Backing up contacts...</value>
+  </data>
+  <data name="BackingUpMMS" xml:space="preserve">
+    <value>Backing up MMS...</value>
+  </data>
+  <data name="BackingUpMyDocuments" xml:space="preserve">
+    <value>Backing up "My Documents"...</value>
+  </data>
+  <data name="BackingUpSchedule" xml:space="preserve">
+    <value>Backing up schedule...</value>
+  </data>
+  <data name="BackingUpSMS" xml:space="preserve">
+    <value>Backing up SMS...</value>
+  </data>
+  <data name="BackingUpUserDictionary" xml:space="preserve">
+    <value>Backing up keyboard dictionary...</value>
+  </data>
+  <data name="BackupDeviceData" xml:space="preserve">
+    <value>Backup device data</value>
+  </data>
+  <data name="BackupDeviceDataText" xml:space="preserve">
+    <value>Backup the most important data to easily migrate to another firmware.</value>
+  </data>
+  <data name="BingMapsCache" xml:space="preserve">
+    <value>Bing Maps cache</value>
+  </data>
+  <data name="btnBackup" xml:space="preserve">
+    <value>Backup</value>
+  </data>
+  <data name="btnRestore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="Connect" xml:space="preserve">
+    <value>Connect</value>
+  </data>
+  <data name="Connected" xml:space="preserve">
+    <value>Connected</value>
+  </data>
+  <data name="ConnectText" xml:space="preserve">
+    <value>Use Windows Mobile Device Center to connect to your device.</value>
+  </data>
+  <data name="Contacts" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="BackupCancelled" xml:space="preserve">
+    <value>Anyway, don't forget to backup as often as possible to prevent data loss.</value>
+  </data>
+  <data name="Finished" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="Header" xml:space="preserve">
+    <value>WPBackup</value>
+  </data>
+  <data name="HereIsYourFile" xml:space="preserve">
+    <value>Here is your backup:</value>
+  </data>
+  <data name="KeyboardDictionary" xml:space="preserve">
+    <value>Keyboard dictionary</value>
+  </data>
+  <data name="MMS" xml:space="preserve">
+    <value>MMS</value>
+  </data>
+  <data name="MyDocuments" xml:space="preserve">
+    <value>My Documents</value>
+  </data>
+  <data name="NotConnected" xml:space="preserve">
+    <value>Not connected</value>
+  </data>
+  <data name="OpenBackup" xml:space="preserve">
+    <value>Choose backup file</value>
+  </data>
+  <data name="PreparingForBackup" xml:space="preserve">
+    <value>Preparing for backup...</value>
+  </data>
+  <data name="PreparingForRestore" xml:space="preserve">
+    <value>Preparing for restore...</value>
+  </data>
+  <data name="PreparingOutputFile" xml:space="preserve">
+    <value>Preparing output file...</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>Restore:</value>
+  </data>
+  <data name="RestoreApplicationDistributives" xml:space="preserve">
+    <value>Reinstall applications</value>
+  </data>
+  <data name="RestoreDeviceData" xml:space="preserve">
+    <value>Restore device data from backup</value>
+  </data>
+  <data name="RestoreDeviceDataText" xml:space="preserve">
+    <value>Restore previously saved data</value>
+  </data>
+  <data name="RestoreSuccessText" xml:space="preserve">
+    <value>Phone was successfully restored.
+Let us know if you have any problem.</value>
+  </data>
+  <data name="RestoringApplications1" xml:space="preserve">
+    <value>Restoring applications [stage 1]...</value>
+  </data>
+  <data name="RestoringApplications2" xml:space="preserve">
+    <value>Restoring applications [stage 2]...</value>
+  </data>
+  <data name="RestoringBingMapsCache" xml:space="preserve">
+    <value>Restoring Bing Maps cache...</value>
+  </data>
+  <data name="RestoringContacts" xml:space="preserve">
+    <value>Restoring contacts...</value>
+  </data>
+  <data name="RestoringMMS" xml:space="preserve">
+    <value>Restoring MMS...</value>
+  </data>
+  <data name="RestoringMyDocuments" xml:space="preserve">
+    <value>Restoring "My Documents"...</value>
+  </data>
+  <data name="RestoringSchedule" xml:space="preserve">
+    <value>Restoring schedule...</value>
+  </data>
+  <data name="RestoringSMS" xml:space="preserve">
+    <value>Restoring SMS...</value>
+  </data>
+  <data name="RestoringUserDictionary" xml:space="preserve">
+    <value>Restoring keyboard dictionary...</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save:</value>
+  </data>
+  <data name="SaveBackupAs" xml:space="preserve">
+    <value>Save backup as</value>
+  </data>
+  <data name="Schedule" xml:space="preserve">
+    <value>Schedule</value>
+  </data>
+  <data name="SMS" xml:space="preserve">
+    <value>SMS, MMS, calendar</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="StateBackup" xml:space="preserve">
+    <value>Backup</value>
+  </data>
+  <data name="StateBackupInProgress" xml:space="preserve">
+    <value>Backup in progress</value>
+  </data>
+  <data name="StateRestore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="StateRestoreInProgress" xml:space="preserve">
+    <value>Restore in progress</value>
+  </data>
+  <data name="SubHeader" xml:space="preserve">
+    <value>data backup tool for custom ROMs</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Success!</value>
+  </data>
+  <data name="UnpackingBackup" xml:space="preserve">
+    <value>Unpacking backup...</value>
+  </data>
+  <data name="WhatDoYouWantToDo" xml:space="preserve">
+    <value>What do you want to do?</value>
+  </data>
+  <data name="WPBackupFiles" xml:space="preserve">
+    <value>WPBackup files</value>
+  </data>
+  <data name="SavingIndex" xml:space="preserve">
+    <value>Saving backup index...</value>
+  </data>
+  <data name="Browse" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="ChooseBackupFile" xml:space="preserve">
+    <value>Choose backup file</value>
+  </data>
+  <data name="EnterBackupPath" xml:space="preserve">
+    <value>Enter backup file path or click "Browse" to find it easier.</value>
+  </data>
+  <data name="Forward" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="ReadingContents" xml:space="preserve">
+    <value>Reading contents...</value>
+  </data>
+  <data name="Restoration" xml:space="preserve">
+    <value>Restoration</value>
+  </data>
+  <data name="RestoreFollowing" xml:space="preserve">
+    <value>Restore following elements:</value>
+  </data>
+  <data name="CreatingBackup" xml:space="preserve">
+    <value>Creating backup</value>
+  </data>
+  <data name="CreatingBackupNote" xml:space="preserve">
+    <value>Choose items you want to backup.</value>
+  </data>
+  <data name="BackupIsBeingCreated" xml:space="preserve">
+    <value>Backup is being created...</value>
+  </data>
+  <data name="WaitALittle" xml:space="preserve">
+    <value>Wait a little. It will be ready in some minutes.</value>
+  </data>
+  <data name="BackupIsBeingRestored" xml:space="preserve">
+    <value>Backup is being restored</value>
+  </data>
+  <data name="BackupRestorationText" xml:space="preserve">
+    <value>Please, wait. Your data will be restored soon.</value>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Distributive" xml:space="preserve">
+    <value>Distributive</value>
+  </data>
+  <data name="SelectApps" xml:space="preserve">
+    <value>Select applications</value>
+  </data>
+  <data name="SelectAppsBackup" xml:space="preserve">
+    <value>Following applications will be saved:</value>
+  </data>
+  <data name="SelectAppsRestore" xml:space="preserve">
+    <value>Following applications will be restore:</value>
+  </data>
+  <data name="MainMenu" xml:space="preserve">
+    <value>Main menu</value>
+  </data>
+  <data name="OperationCompleted" xml:space="preserve">
+    <value>Operation completed</value>
+  </data>
+  <data name="BackupCompletedText" xml:space="preserve">
+    <value>Now your data will be safe.</value>
+  </data>
+  <data name="ContactsSmsMmsSchedule" xml:space="preserve">
+    <value>Contacts, SMS, MMS, calendar</value>
+  </data>
+  <data name="RestoreCompletedText" xml:space="preserve">
+    <value>Restoration completed. Please, reboot your phone as soon as possible to apply all changes reliably.</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>about</value>
+  </data>
+  <data name="AboutText" xml:space="preserve">
+    <value>© ultrashot 2012
+
+Special thanks to: 
+AsusMobile.ru team (AndrewSh, Barin, Feropont, lucifer3006, Vladimir1973), XDA-Developers team (CeesHeim, Football, Heathcliff74, HD2Owner, OndraSter, xboxmod and others), and Cotulla (DFT).
+
+This release is devoted to S.D.</value>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>About 
+Windows Phone Backup</value>
+  </data>
+  <data name="RestoreCancelled" xml:space="preserve">
+    <value>Restore process was interrupted. There is a small chance of breaking useful information on your device. Be really careful.</value>
+  </data>
+  <data name="AppIsBusy" xml:space="preserve">
+    <value>Application is currently doing some work. Are you sure you really want to interrupt it?</value>
+  </data>
+  <data name="CancelBackupText" xml:space="preserve">
+    <value>Do you really want to cancel backup process?</value>
+  </data>
+  <data name="CancelRestoreText" xml:space="preserve">
+    <value>Do you really want to cancel restore process? </value>
+  </data>
+  <data name="EnterComment" xml:space="preserve">
+    <value>Enter comment</value>
+  </data>
+  <data name="EnterCommentText" xml:space="preserve">
+    <value>It will be automatically added to archieve file.</value>
+  </data>
+  <data name="BackingUpWifiNetworks" xml:space="preserve">
+    <value>Backing up WiFi networks...</value>
+  </data>
+  <data name="RestoringWifiNetworks" xml:space="preserve">
+    <value>Restoring WiFi networks...</value>
+  </data>
+  <data name="WifiNetworks" xml:space="preserve">
+    <value>WiFi networks</value>
+  </data>
+  <data name="Alarms" xml:space="preserve">
+    <value>Alarms</value>
+  </data>
+  <data name="BackingUpAlarms" xml:space="preserve">
+    <value>Backing up alarms...</value>
+  </data>
+  <data name="RestoringAlarms" xml:space="preserve">
+    <value>Restoring alarms...</value>
+  </data>
+  <data name="ApplicationDataContinue" xml:space="preserve">
+    <value>Press "OK" once you finish installing all applications.
+Press "Cancel" to skip restoring application data.</value>
+  </data>
+  <data name="Cancelling" xml:space="preserve">
+    <value>Cancelling...</value>
+  </data>
+  <data name="CameraPhotoCount" xml:space="preserve">
+    <value>Camera photo count</value>
+  </data>
+  <data name="LockscreenTimeout" xml:space="preserve">
+    <value>Lockscreen timeout</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ErrorText" xml:space="preserve">
+    <value>An error has occured during backup/restore process. Please, send these details to WPBackup developer:</value>
+  </data>
+  <data name="BackingUpCameraPhotoCount" xml:space="preserve">
+    <value>Backing up camera photo count...</value>
+  </data>
+  <data name="BackingUpLockscreenTimeout" xml:space="preserve">
+    <value>Backing up lockscreen timeout...</value>
+  </data>
+  <data name="RestoringCameraPhotoCount" xml:space="preserve">
+    <value>Restoring camera photo count...</value>
+  </data>
+  <data name="RestoringLockscreenTimeout" xml:space="preserve">
+    <value>Restoring lockscreen timeout...</value>
+  </data>
+  <data name="NoSDK" xml:space="preserve">
+    <value>WPBackup failed to start. There are two possible reasons:
+1) Windows Phone 7 SDK isn't installed. Get full one from microsoft.com, or install W.I.N.C.O. Mini SDK if application development capability isn't required.
+2) Windows Mobile Device Center isn't installed.
+</value>
+  </data>
+  <data name="PleaseSetupLiveAccount" xml:space="preserve">
+    <value>Please, setup Live account first!</value>
+  </data>
+</root>

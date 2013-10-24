@@ -1,0 +1,19 @@
+﻿<Page x:Class="WPBackup.pageSuccess"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      x:ClassModifier="internal"
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="pageSuccess"
+      Loaded="Page_Loaded" Background="{StaticResource MainBackgroundColor}">
+
+    <Grid Margin="20,10,20,20">
+
+        <StackPanel UseLayoutRounding="True" CanVerticallyScroll="True" ScrollViewer.VerticalScrollBarVisibility="Auto" >
+            <TextBlock Text="{Binding Resources.OperationCompleted, Source={StaticResource Localization}}" Style="{DynamicResource HeaderTextStyle}"/>
+            <TextBlock x:Name="Comment" Text="" Margin="0,10" Style="{DynamicResource NormalTextStyle}"/>
+        </StackPanel>
+    </Grid>
+</Page>
