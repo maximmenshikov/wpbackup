@@ -74,8 +74,6 @@ namespace WPBackup {
         ///
         ///Special thanks to: 
         ///AsusMobile.ru team (AndrewSh, Barin, Feropont, lucifer3006, Vladimir1973), XDA-Developers team (CeesHeim, Football, Heathcliff74, HD2Owner, OndraSter, xboxmod and others), and Cotulla (DFT).
-        ///
-        ///This release is devoted to S.D..
         /// </summary>
         public static string AboutText {
             get {
